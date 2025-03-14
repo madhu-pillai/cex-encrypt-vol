@@ -1,0 +1,9 @@
+apiVersion: cex.ibmz.com/v1alpha1
+kind: CexEncryptVol
+metadata:
+  labels:
+    app.kubernetes.io/name: cex-encrypt-vol
+    app.kubernetes.io/managed-by: kustomize
+  name: cexencryptvol-sample
+spec:
+  # TODO(user): Add fields here
